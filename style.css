@@ -1,0 +1,336 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  nav {
+    padding: 1.75rem;
+    background-color: white;
+  }
+  
+  .mulearn-logo {
+    width: 6rem;
+  }
+  
+  .nav-barbtn button {
+    border: 2.5px solid #5865f2;
+    padding: 0.65rem 0.96rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: #5865f2;
+    color: white;
+    margin-top: 2vh;
+  }
+  
+  .dropdown {
+    font-size: 0.89rem;
+  }
+  
+  .dropdown-item {
+    font-size: 0.75rem;
+  }
+  
+  footer {
+    margin-top: 10vh;
+    padding: 4rem 2rem;
+    background-color: #404040;
+  }
+  
+  .footer-logo {
+    width: 5rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  .social-links a:hover,
+  .footer-links a:hover {
+    color: #fd7915;
+  }
+  
+  .footer-links {
+    margin: 2rem 0;
+    line-height: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a {
+    margin-right: 0.75rem;
+  }
+  
+  .iconify {
+    font-size: 2rem;
+    margin-right: 0.75rem;
+  }
+  
+  .iconify:hover {
+    color: #f6832a;
+    background-color: #404040;
+  }
+  
+  footer hr {
+    color: white;
+    margin: 2rem 0rem;
+  }
+  .address {
+    color: white;
+    width: 20rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+  }
+  
+  .mailus {
+    display: block;
+    padding-top: 1rem;
+    color: rgb(176, 176, 245);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5e72e4;
+  }
+  
+  .fheadingtext {
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 4vh;
+  }
+  
+  .fparagraph {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: white;
+  }
+  
+  .newsletterinvite {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .invite-container {
+    position: relative;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 2vh;
+    border-radius: 5px;
+  }
+  
+  .invite-container input {
+    font-size: 0.8rem;
+    border: none;
+    padding: 0.5rem;
+    width: 12.5rem;
+  }
+  
+  .invite-container button {
+    border: none;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #f6832a;
+    padding: 0.5rem 1.75rem;
+    border-radius: 3px;
+  }
+  
+  .invite-container button:hover {
+    background-color: #fd7915;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+  
+  .nav-barbtn {
+    padding-bottom: 2vh;
+  }
+  
+  .newsletter {
+    width: 20rem;
+  }
+  
+  .newslettertext {
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .footer-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    footer {
+      padding: 1rem 6rem;
+      padding-bottom: 3rem;
+    }
+  
+    .container-fluid {
+      padding: 0.55rem 4.3rem;
+    }
+  
+    .navbar-styles {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .nav-barbtn button {
+      margin-top: 0;
+    }
+  
+    .iconify {
+      font-size: 2.5rem;
+    }
+  
+    .footer-logo {
+      width: 6rem;
+      margin-top: 2vh;
+    }
+  
+    .nav-barbtn {
+      padding-bottom: 0vh;
+    }
+  }
+  
+  /* Card Styles */
+  
+  .hiring-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main {
+    margin: 15vh 5vw;
+  }
+  
+  .hiring-card {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0.25rem;
+  }
+  
+  .hiring-header {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    padding: 0.75rem;
+    text-align: center;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover{
+    color:white;
+  }
+  
+  .right-side {
+    background-color: aliceblue;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem 01rem;
+    border-radius: 0px 8px 8px 0px;
+  }
+  
+  .left-side {
+    background-color: #404040;
+    color: white;
+    display: flex;
+    padding: 5vh 5vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+  }
+  
+  .location {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .apply {
+    background-color: #fce601;
+    border: none;
+    color: #404040;
+    padding: 0.25rem 1rem;
+    font-weight: 500;
+  }
+  
+  .apply:hover {
+    box-shadow: 0px 0px 5px #e7e6d6;
+  }
+  
+  .company-logo {
+    width: 7rem;
+    border-radius: 5px;
+  }
+  
+  .qualification {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+  
+  .job-name {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.55rem;
+  }
+  
+  .jobdec{
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 0.9rem;
+  }
+  
+  .loc-icon{
+    color: #404040;
+    width: 2rem;
+    margin: 0;
+  }
+  
+  .loc-icon:hover{
+    background-color: aliceblue;
+    color: #404040;
+  }
+  
+  @media only screen and (min-width: 1100px) {
+    .left-side {
+      padding: 3rem 2rem;
+    }
+  
+    .right-side {
+      font-size: 1rem;
+    }
+  
+    .hiring-container{
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .right-side{
+      width: 20vw;
+    }
+  
+    .qualification {
+      font-size: 1.45rem;
+      margin-left: 1rem;
+      font-weight: 600;
+    }
+  
+    .skills li{
+      font-size: 1rem;
+    }
+  
+  }
